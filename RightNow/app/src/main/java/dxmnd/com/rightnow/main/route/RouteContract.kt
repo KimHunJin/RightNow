@@ -1,9 +1,9 @@
-package dxmnd.com.rightnow.main.root
+package dxmnd.com.rightnow.main.route
 
 import dxmnd.com.rightnow.base.BasePresenter
 import dxmnd.com.rightnow.base.BaseView
 
-interface RootContract {
+interface RouteContract {
 
     interface View : BaseView<Presenter> {
 

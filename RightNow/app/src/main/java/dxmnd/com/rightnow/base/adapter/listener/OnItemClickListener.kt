@@ -1,4 +1,4 @@
-
+package dxmnd.com.rightnow.base.adapter.listener
 import android.support.v7.widget.RecyclerView
 
 /**

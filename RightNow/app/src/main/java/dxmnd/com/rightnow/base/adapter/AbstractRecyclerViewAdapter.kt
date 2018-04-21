@@ -1,6 +1,10 @@
+package dxmnd.com.rightnow.base.adapter
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
+import dxmnd.com.rightnow.base.adapter.listener.OnItemClickListener
+import dxmnd.com.rightnow.base.adapter.model.BaseModel
+import dxmnd.com.rightnow.base.adapter.model.BaseRecyclerView
 
 /**
  * Created by HunJin on 2018-04-04.

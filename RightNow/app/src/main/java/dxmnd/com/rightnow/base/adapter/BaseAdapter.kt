@@ -1,4 +1,6 @@
+package dxmnd.com.rightnow.base.adapter
 import android.content.Context
+import dxmnd.com.rightnow.base.adapter.holder.BaseViewHolder
 
 /**
  * Created by HunJin on 2018-04-04.

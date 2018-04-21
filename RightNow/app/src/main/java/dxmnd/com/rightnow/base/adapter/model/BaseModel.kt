@@ -1,4 +1,4 @@
-
+package dxmnd.com.rightnow.base.adapter.model
 /**
  * Created by HunJin on 2018-04-04.
  */

@@ -13,6 +13,7 @@ android {
         versionCode propVersionCode
         versionName propVersionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
         release {
@@ -42,6 +43,14 @@ dependencies {
 
     //logger
     implementation "com.orhanobut:logger:${versions.logger}"
+
+    // dagger
+    implementation 'com.google.dagger:dagger:2.15'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.15'
+
+    // glide
+    implementation "com.github.bumptech.glide:glide:${versions.glide}"
+    annotationProcessor "com.github.bumptech.glide:compiler:${versions.glide}"
 
     // rx
     implementation "io.reactivex.rxjava2:rxjava:${versions.rx}"

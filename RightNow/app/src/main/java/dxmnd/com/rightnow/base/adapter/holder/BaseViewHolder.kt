@@ -1,9 +1,13 @@
+package dxmnd.com.rightnow.base.adapter.holder
+
 import android.content.Context
 import android.support.annotation.LayoutRes
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import dxmnd.com.rightnow.base.adapter.AbstractRecyclerViewAdapter
+import dxmnd.com.rightnow.base.adapter.listener.OnItemClickListener
 
 /**
  * Created by HunJin on 2018-04-04.
